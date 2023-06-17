@@ -831,8 +831,8 @@ def inference(
                 "f1": lambda y_true, y_score: sklearn.metrics.f1_score(
                     y_true=y_true, y_pred=np.round(y_score)
                 ),
-                # "roc_auc": sklearn.metrics.roc_auc_score,
-                "roc_auc": lambda x, y: 0,
+                "roc_auc": sklearn.metrics.roc_auc_score,
+                # "roc_auc": lambda x, y: 0,
                 "ap": sklearn.metrics.average_precision_score,
                 "accuracy": lambda y_true, y_score: sklearn.metrics.accuracy_score(
                     y_true=y_true, y_pred=np.round(y_score)
