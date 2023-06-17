@@ -1,0 +1,9 @@
+Epoch 1/10
+2327/2327 - 38s - loss: 0.6446 - binary_crossentropy: 0.6431 - val_loss: 0.6345 - val_binary_crossentropy: 0.6312
+Best Threshold=0.527204, G-Mean=0.636
+test Accuracy 0.6367
+test Precision 0.6449
+test Recall 0.6122
+test F1 0.6281
+test LogLoss 0.6292
+test AUC 0.6924
