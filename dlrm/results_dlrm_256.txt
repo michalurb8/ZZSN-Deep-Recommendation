@@ -1,0 +1,25 @@
+Finished training it 139264/153485 of epoch 0, 11.66 ms/it, loss 0.469190
+Finished training it 140288/153485 of epoch 0, 11.64 ms/it, loss 0.471305
+Finished training it 141312/153485 of epoch 0, 11.21 ms/it, loss 0.467424
+Finished training it 142336/153485 of epoch 0, 10.74 ms/it, loss 0.469547
+Finished training it 143360/153485 of epoch 0, 10.78 ms/it, loss 0.469638
+Finished training it 144384/153485 of epoch 0, 10.79 ms/it, loss 0.467268
+Finished training it 145408/153485 of epoch 0, 10.87 ms/it, loss 0.469319
+Finished training it 146432/153485 of epoch 0, 10.96 ms/it, loss 0.468358
+Finished training it 147456/153485 of epoch 0, 11.07 ms/it, loss 0.468827
+Finished training it 148480/153485 of epoch 0, 11.31 ms/it, loss 0.468758
+Finished training it 149504/153485 of epoch 0, 10.96 ms/it, loss 0.471613
+Finished training it 150528/153485 of epoch 0, 10.90 ms/it, loss 0.468188
+Finished training it 151552/153485 of epoch 0, 10.98 ms/it, loss 0.468393
+Finished training it 152576/153485 of epoch 0, 10.91 ms/it, loss 0.467792
+Finished training it 153484/153485 of epoch 0, 11.50 ms/it, loss 0.469302
+:::MLLOG {"namespace": "", "time_ms": 1687036575293, "event_type": "INTERVAL_START", "key": "eval_start", "value": null, "metadata": {"file": "/mnt/e/dlrm/dlrm_s_pytorch.py", "lineno": 1663, "epoch_num": 1.9999934847053458}}
+
+Testing at - 153484/153485 of epoch 0,
+recall 0.3886240971992582
+precision 0.6098347189268282
+f1 0.47472457202235535
+roc_auc 0.7746117583933401
+ap 0.5671442518350723
+accuracy 0.7752190524473709
+recall 0.3886, precision 0.6098, f1 0.4747, ap 0.5671, auc 0.7746, best auc 0.7746, accuracy 77.522 %, best accuracy 0.000 %
